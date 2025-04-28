@@ -2,18 +2,13 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-16  my-8">
+    <section className="py-16  my-8">
       <div className="max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-6 text-gray-800">About Us</h2>
         <p className="text-lg text-gray-600 mb-8">
-          Welcome to{" "}
-          <span className="font-semibold text-blue-600">
-            landing
-          </span>
-          ! We are passionate about  Our team is
-          dedicated to delivering{" "}
-          <span className="font-semibold">high-quality solutions </span>
-          that help you achieve your goals and make a difference.
+          Welcome to landing ! We are passionate about Our team is dedicated to
+          delivering high-quality solutions that help you achieve your goals and
+          make a difference.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
           <div className="bg-white p-6 rounded-lg shadow-md">
